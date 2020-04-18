@@ -1,21 +1,15 @@
-const express = require('express');
+const fastify = require('fastify')({ logger: true });
 const cors = require('cors');
-const helmet = require('helmet');
-const morgan = require('morgan');
-
-const app = express();
+const helmet = require('fastify-helmet');
 
 const routes = require('./routes');
 
-app.use(express.json());
-app.use(helmet());
-app.use(morgan('combined'));
-app.use(cors());
+fastify.use(cors());
 
-app.use(routes);
+fastify.register(helmet);
+fastify.register(routes);
 
-const port = process.env.port || process.env.PORT || 3000;
-
-app.listen(port, () => {
-	console.log('listening server on port %d', port);
+fastify.listen(process.env.port || process.env.PORT || 3000, (err, address) => {
+	if(err) throw err;
+	fastify.log.info(`server listening on ${address}`);
 });

@@ -1,11 +1,9 @@
-const express = require('express');
-
-const routes = express.Router();
-
-routes.get('/v1/api', (req, res) => {
-	res.json({
-		data: 'Hello, World!',
+async function routes(fastify, options) {
+	
+	fastify.get('/', async (request, reply) => {
+		reply.type('application/json').code(200)
+		return { hello: 'world' }
 	});
-});
-
+	
+}
 module.exports = routes;
