@@ -13,7 +13,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "fastify": "^2.13.1",
+    "fastify": "^2.15.1",
     "fastify-helmet": "^3.0.2",
     "jsonwebtoken": "^8.5.1",
     "sentiment": "^5.0.2",
