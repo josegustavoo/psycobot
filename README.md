@@ -42,7 +42,7 @@ O **Psycobot** foi criado pôr apenas 1 pessoa, um programador adolescente de 15
 
 ## Instruções de como colocar frases ao bot
 
-- Crie um arquivo com o nome relacioando as frases (em inglês) na pasta src/dictionary e entre na pasta do idioma das frases (crie uma caso n tenha)
+- Crie um arquivo com o nome relacionando as frases (em inglês) na pasta src/dictionary e entre na pasta do idioma das frases (crie uma caso não tenha)
 
 - Adicione esse codigo no arquivo
 
@@ -71,7 +71,7 @@ O **Psycobot** foi criado pôr apenas 1 pessoa, um programador adolescente de 15
 ## Contribuir
 
 Você pode contribuir de varias formas, a principal é ajudando a treinar o chatbot, adicionando mais frases.
-Outas formas são dando um feedback no projeto, utilizar-lo, favoritar-lo.
+Outras formas são dando um feedback no projeto, utilizar-lo, favoritar-lo.
 
 E outra forma que pode me ajudar muito é doando alguma quantia, vai me ajudar a manter o projeto e crescer-lo ainda mais.
 
