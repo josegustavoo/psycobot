@@ -1,7 +1,9 @@
 const { Recognizer, Language, NlpManager } = require('node-nlp');
+const keyword_extractor = require("keyword-extractor");
 
 const trainingNLP = require('./dictionary/_training');
 const encryption = require('./tools/encryption');
+const Keyword = require('./models/Keyword');
 
 const THRESHOLD = 0.7;
 let incrementIdConversation = true;
@@ -51,6 +53,21 @@ const Bot = class {
 		incrementIdConversation = !(result && result.slotFill);
 		
 		const answer = result.score > THRESHOLD && result.answer ? result.answer : 'Desculpe, não entendi!';
+		
+		if(!result.answer) {
+			const extraction_result = keyword_extractor.extract(query, {
+				language: "portuguese",
+				remove_digits: true,
+				return_changed_case:true,
+				remove_duplicates: false
+			});
+			
+			const keywords = extraction_result.join(', ');
+			
+			await Keyword.create({
+				text: keywords,
+			});
+		}
 		
 		const answerEncrypt = await encryption.encrypt(answer);
 		
