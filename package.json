@@ -1,0 +1,31 @@
+{
+  "name": "psycobot",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": {
+    "name": "José Gustavo"
+  },
+  "license": "GNU v3",
+  "private": "true",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "fastify": "^3.0.2",
+    "fastify-compress": "^3.2.1",
+    "fastify-cors": "^4.0.0",
+    "fastify-helmet": "^4.0.2",
+    "fastify-language-parser": "^3.0.0-rc.1",
+    "fastify-rate-limit": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "keyword-extractor": "^0.0.19",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.24",
+    "node-nlp": "^4.8.0",
+    "socket.io": "^2.3.0"
+  }
+}

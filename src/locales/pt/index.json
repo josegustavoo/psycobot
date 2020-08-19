@@ -1,0 +1,30 @@
+{
+	"errorEmailMalformatted": {
+		"title": "Email incorreto",
+		"text": "O formato do email está incorreto, você pode ter esquecido algo a mais."
+	},
+	"errorAccountNotFound": {
+		"title": "Conta não encontrada",
+		"text": "Esse email ainda não foi registrado."
+	},
+	"errorInvalidPassword": {
+		"title": "Senha incorreta",
+		"text": "A senha inserida não corresponde a esta conta."
+	},
+	"errorOccurred": {
+		"title": "Ocorreu um erro",
+		"text": "Infelizmente houve um erro, por favor tente mais tarde."
+	},
+	"errorPasswordShort": {
+		"title": "Senha curta",
+		"text": "A senha inserida é muito curta, ou o mínimo é de 8 caracteres."
+	},
+	"errorEmailInUse": {
+		"title": "Email sendo usado",
+		"text": "O email inserido já esta sendo usado por outra pessoa, use outro email."
+	},
+	"errorAccessDenied": {
+		"title": "Acesso negado",
+		"text": "Não foi possivel realizar a operação, pois o seu acesso foi negado."
+	}
+}

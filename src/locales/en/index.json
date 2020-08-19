@@ -1,0 +1,30 @@
+{
+	"errorEmailMalformatted": {
+		"title": "Incorrect email",
+		"text": "The email format is incorrect, you may have forgotten something."
+	},
+	"errorAccountNotFound": {
+		"title": "Account not found",
+		"text": "This email has not yet been registered."
+	},
+	"errorInvalidPassword": {
+		"title": "Incorrect password",
+		"text": "The password entered does not match this account."
+	},
+	"errorOccurred": {
+		"title": "An error has occurred",
+		"text": "Unfortunately there was an error, please try later."
+	},
+	"errorPasswordShort": {
+		"title": "Short password",
+		"text": "The password entered is too short, the minimum is 8 characters."
+	},
+	"errorEmailInUse": {
+		"title": "Email being used",
+		"text": "The email entered is already being used by someone else, use another email."
+	},
+	"errorAccessDenied": {
+		"title": "Access denied",
+		"text": "It was not possible to perform the operation, as access was denied."
+	}
+}
