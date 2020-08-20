@@ -1,6 +1,12 @@
 ![Packagist License](https://img.shields.io/github/license/josegustavoo/psycobot?color=3bb860)
 ![GitHub contributors](https://img.shields.io/github/contributors/josegustavoo/psycobot?color=3bb860)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FV6NL6FQT3KWG&source=url) 
+<img alt="GitHub Issues" src="https://img.shields.io/github/issues/josegustavoo/psycobot" />
+<img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/josegustavoo/psycobot" />
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/josegustavoo/psycobot" />
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![Visits Badge](https://badges.pufler.dev/visits/josegustavoo/psycobot)](https://badges.pufler.dev)
 
 <p align="center">
 <img width="100" height="100" src="https://psycobot.vercel.app/img/icon.png">
