@@ -14,7 +14,7 @@
 
 # Psycobot
 
-O **PsycoBot** é um projeto que consiste em um chatbot que tem como foco ajudar as pessoas, o foco dele é se parecer o maximo possivel a um psicólogo.
+O **PsycoBot** é um projeto que consiste em um chatbot que tem como foco ajudar as pessoas, o foco dele é se parecer o maximo possivel a um conselheiro.
 
 
 O **Psycobot** foi criado pôr apenas 1 pessoa, um programador adolescente de 15 anos, tudo foi criado em **celular** (não existe desculpa para começar a programar).
