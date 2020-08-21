@@ -75,7 +75,7 @@ module.exports = {
 			}
 			
 			if( messages.length == 0 ) {
-				const welcomeText = await encryption.encrypt("Olá, tudo bem?, me chamo Laura e serei sua psicóloga virtual, quando quiser inciar, so enviar uma mensagem. 😉");
+				const welcomeText = await encryption.encrypt("Olá, tudo bem?, me chamo Laura e serei sua conselheira virtual, quando quiser inciar, so enviar uma mensagem. 😉");
 			
 				const dateNow = new Date();
 				const date = moment(dateNow).format('YYYY-MM-DDTHH:mm:ss.SSSZ');
