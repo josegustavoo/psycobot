@@ -50,7 +50,7 @@ module.exports = {
 				};
 			}
 			
-			const countMessages = await Message.estimatedDocumentCount({ $or: [
+			const countMessages = await Message.countDocuments({ $or: [
 				{ to: userId },
 				{ from: userId }
 			] }).lean();
